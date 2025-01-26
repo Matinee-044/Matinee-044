@@ -1,0 +1,161 @@
+
+.card{
+    position: relative;
+    width: 250px;
+    background-color: rgb(112, 174, 228);
+    border: 2px solid;
+}
+
+.more{
+    position: absolute;
+    right: 20px ;
+    bottom: 10px;
+    width: 80px;
+    background-color: rgb(221, 87, 132);
+    border: 2px solid red;
+    
+}
+.desc{
+    background-color: blanchedalmond;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+.head{
+    /* position: fixed;
+    right: 20px; */
+} 
+nav {
+    margin-top: 10px;
+}
+.menu{
+    display: flex; /* ใช้ flexbox เพื่อให้รายการอยู่ในแถวเดียวกัน */
+    list-style: none; /* เอาเครื่องหมายจุดออก */
+    padding: 10px ;
+    background-color: lightblue;
+}
+.menu li {
+    margin: 0 10px;
+}
+.menu a:hover {
+    background-color: #ff4500; /* เปลี่ยนสีพื้นหลังเมื่อเมาส์เลื่อนเข้า */
+    box-shadow: 0 3px 0 0 #ff6347; /* เพิ่มแถบสีใต้ลิงก์เมื่อเมาส์เลื่อนเข้า */
+}
+.menu a:active {
+    text-decoration: none; /* เอาเส้นขีดใต้ลิงก์ออก */
+    border-radius: 5px;
+}
+/* .pic{
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px; 
+} */
+.menu-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.menu-item{
+    display: flex;
+     align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.menu-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.menu-details {
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+.menu-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 0 5px;
+}
+
+.menu-description {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0;
+}
+
+.menu-action {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 20px;
+}
+
+.menu-price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ff4500;
+    margin-left: 20px;
+}
+.b3{
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menu-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.colum2{
+    background-color: burlywood;
+    border-radius: 7px;
+    border: 3px solid #e84747; 
+} 
+.colum3{
+    background-color: burlywood;
+    border-radius: 7px;
+    border: 3px solid #e84747;
+} 
+.colum4{
+    background-color: burlywood;
+    border-radius: 7px;
+    border: 3px solid #e84747;
+}
+
+
+
+/********************************/
+/*.col{
+    width: 435px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: lightblue;
+}
+
+.row2{*/
+    /* clear: left; */
+   /* background-color: lightcoral;
+}
+
+.footer{
+    clear: both;
+
+}
+.last{
+    clear: both;
+}*/

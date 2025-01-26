@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*,
+*::before
+*::after{
+    box-sizing: border-box;
+}
+body{
+    width: 1000px; 
+  height: auto;  
+  margin: 0 auto; 
+  overflow-x: hidden;
+  text-align: center;
+
+}
+ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+  
+  li {
+    display: inline; 
+    margin-right: 20px; 
+  }
+
+  .image-container {
+    text-align: center;
+
+  }
+  
+  .image {
+    width: 300px; 
+    height: auto; 
+    border: 2px ;
+  }
+
+a:link{
+    color: red;
+    text-decoration: none;
+}
+a:visited{
+    color: green;
+}
+a:active{
+    color: chocolate;
+}
+a:hover{
+    background-color: yellow;
+}
+.heading{
+    background-color: blue;
+    margin: 30px;
+    padding: 10px;
+    border: 10px solid;
+}
+.para{
+    background-color: cyan;
+}
+.menu{
+    background-color: blueviolet;
+}
+.box1{
+    background-color: rgb(87, 120, 230);
+    margin: 20px 30px 100px 200px;
+    border: 3px ;
+    padding: 20px 20px; /*บน-ล่าง ซ้าย-ขวา*/
+}
+p{
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+}

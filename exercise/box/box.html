@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fffafa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2, h3, h5 {
+            text-align: center;
+            color: #4CAF50;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        h2, h3 {
+            font-size: 28px;
+        }
+        h5 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+            text-align: center;
+        }
+        ul, ol {
+            font-size: 18px;
+            color: #555;
+            padding-left: 20px;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        img {
+            display: block;
+            margin: 10px auto;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>piza menu</h1>
+
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam nihil
+      aut omnis harum dolorem odio porro velit aperiam distinctio laborum eum
+      enim animi culpa placeat dolor, quibusdam vel praesentium perferendis.
+    </p>
+
+    <ul>
+      <li><a href="#nutrition table">nutrition table</a></li>
+      <li><a href="#topping">topping</a></li>
+      <li><a href="#how to">how to</a></li>
+    </ul>
+
+    <img
+      src="pic/p1.jpg"
+      width="500"
+      height="400"
+      alt="pizza"
+    />
+    <!-- การใส่ภาพแบบที่อยู่ที่เดียวกัน -->
+
+    <img src="pic/p2.jpg" width="500" height="400" alt="pizzaa" />
+    <!-- การใส่ภาพแบบที่อยู่ที่เดียวกัน -->
+
+    <h2 id="topping">topping</h2>
+
+    <ul>
+      <li>cheese</li>
+      <li>bacon</li>
+      <li>mushrooms</li>
+      <li>tomato sauce</li>
+    </ul>
+    <a href="#top">top</a>
+    <h2 id="how to">how to</h2>
+
+    <ol>
+      <li>prepare the dough and sauce</li>
+      <li>add toppings</li>
+      <li>bake</li>
+    </ol>
+    <a href="#top">top</a>
+    <h3 id="nutrition table">nutrition table</h3>
+
+    <table border="2">
+      <tr>
+        <th>nutrition</th>
+        <th>amount</th>
+        <th>unit</th>
+      </tr>
+
+      <tr>
+        <td>calories</td>
+        <td>250</td>
+        <td>kcal</td>
+      </tr>
+
+      <tr>
+        <td>sodium</td>
+        <td>500</td>
+        <td rowspan="2">mg</td>
+      </tr>
+
+      <tr>
+        <td>cholesterol</td>
+        <td>20</td>
+      </tr>
+
+      <tr>
+        <td colspan="3">protein</td>
+      </tr>
+    </table>
+    <a href="#top">top</a>
+    <h5 id="Reference source">Reference source</h5>
+    <a href="https://www.pizzahut.co.th/" target="_blank"
+      >http://eatyummy/pizza.com</a
+    >
+  </body>
+</html>
